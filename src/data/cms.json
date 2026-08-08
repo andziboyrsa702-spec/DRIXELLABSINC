@@ -1,0 +1,156 @@
+{
+  "hero": {
+    "title": "Building Brands. Developing Products. Creating Technology.",
+    "subtitle": "Drixel Labs Inc. is a South African innovation and venture company turning ambitious ideas into real businesses, products, and experiences.",
+    "tag": "South Africa • Innovation & Venture Studio",
+    "primaryCta": "Explore Story",
+    "secondaryCta": "Our Ventures"
+  },
+  "about": {
+    "title": "The Story Behind Drixel Labs Inc.",
+    "subtitle": "Turning ideas into real businesses, products, and experiences through execution.",
+    "description": "Drixel Labs Inc. is a South African innovation and venture company founded by Anelisa Thelejene and Andzani Mashabane. We focus on the creation, development, and growth of businesses, brands, products, and technology-driven solutions across diverse sectors. Rather than limiting ourselves to one industry, Drixel Labs Inc. is designed around building opportunities while maintaining a strong focus on innovation, entrepreneurship, design, and practical problem-solving.",
+    "founders": [
+      {
+        "name": "Anelisa Thelejene",
+        "role": "Co-Founder"
+      },
+      {
+        "name": "Andzani Mashabane",
+        "role": "Co-Founder"
+      }
+    ],
+    "mission": "To turn ambitious ideas into tangible, functioning products, services, and businesses through rigorous execution, design excellence, and practical problem-solving.",
+    "vision": "To develop a portfolio of meaningful, independent ventures and brands that grow beyond their initial ideas and make an impact across global markets.",
+    "values": "Execution over speculation. Absolute transparency & authenticity. Purposeful, carefully considered design. Long-term value creation."
+  },
+  "companies": {
+    "title": "Our Portfolio & Ventures",
+    "subtitle": "Operating brands and active development ventures within the Drixel ecosystem.",
+    "items": [
+      {
+        "id": "drixel-sa",
+        "name": "Drixel SA",
+        "status": "Active Venture",
+        "isDev": false,
+        "websiteUrl": "https://drixelsa.co.za",
+        "description": "A South African clothing and streetwear brand combining strong visual identity, product design, fashion, and entrepreneurship.",
+        "scope": "Apparel Design, Streetwear Architecture, Brand Strategy, Direct-to-Consumer Commerce."
+      },
+      {
+        "id": "tech-platform",
+        "name": "Drixel Technology & Software Lab",
+        "status": "Status: In Development",
+        "isDev": true,
+        "websiteUrl": "https://drixel.co.za",
+        "description": "Digital platforms, software infrastructure, and spatial computing tools built for enterprise and consumer applications.",
+        "scope": "Software Engineering, WebGL & Canvas Engines, Digital Product Architecture, API Infrastructure."
+      },
+      {
+        "id": "hardware-lab",
+        "name": "Drixel Product & Hardware Lab",
+        "status": "Status: In Development",
+        "isDev": true,
+        "websiteUrl": "https://drixel.co.za",
+        "description": "R&D facility dedicated to physical product development, tactile interfaces, precision enclosures, and sustainable material manufacturing.",
+        "scope": "Physical Prototyping, Enclosure Design, Industrial Product Engineering, Material Science."
+      },
+      {
+        "id": "comp-1786196632831",
+        "name": "New Company Entity",
+        "status": "Status: In Development",
+        "isDev": true,
+        "websiteUrl": "https://drixel.co.za",
+        "description": "Company description...",
+        "scope": "Capabilities scope..."
+      }
+    ]
+  },
+  "ventures": {
+    "title": "Products & R&D",
+    "subtitle": "Showcase of active developments and established product initiatives.",
+    "items": [
+      {
+        "id": "drixel-sa-apparel",
+        "name": "Drixel SA Streetwear Collection",
+        "category": "Fashion & Product Design",
+        "status": "Released",
+        "tagline": "South African Streetwear & Fashion Venture",
+        "description": "The inaugural fashion venture from Drixel SA, combining streetwear aesthetics, durable textiles, and distinct visual identity.",
+        "websiteUrl": "https://drixel.co.za"
+      },
+      {
+        "id": "arch-system",
+        "name": "Drixel Architectural Design Framework",
+        "category": "Brand & System Architecture",
+        "status": "Released",
+        "tagline": "Physical & Digital Design System Protocol",
+        "description": "A unified design token and material framework engineered for physical product signage, digital interfaces, and spatial brand touchpoints.",
+        "websiteUrl": "https://drixel.co.za"
+      },
+      {
+        "id": "spatial-engine",
+        "name": "Spatial & Interactive Web Engine",
+        "category": "Software Engineering",
+        "status": "In Development",
+        "tagline": "3D WebGL Interaction Architecture",
+        "description": "A high-performance WebGL interaction engine built to render physical material textures, inertia physics, and ambient soundscapes.",
+        "websiteUrl": "https://drixel.co.za"
+      }
+    ]
+  },
+  "journal": {
+    "title": "Ideas Worth Building",
+    "subtitle": "Perspectives on product development, fashion entrepreneurship, engineering, and execution.",
+    "articles": [
+      {
+        "id": "execution-over-ideas",
+        "title": "Moving Beyond Ideas: The Art of Execution in Venture Building",
+        "category": "Venture Strategy",
+        "date": "August 2026",
+        "snippet": "Why taking something from initial concept to a functioning product is the true benchmark of entrepreneurship.",
+        "content": "At Drixel Labs Inc., we place primary emphasis on moving beyond ideas and focusing on execution. Taking a concept through development to a functioning product, service, or business is where true value is unlocked."
+      },
+      {
+        "id": "streetwear-entrepreneurship",
+        "title": "Drixel SA: Fusing Fashion, Visual Identity, and Product Design",
+        "category": "Fashion & Brand Design",
+        "date": "July 2026",
+        "snippet": "How Drixel SA combines streetwear aesthetics with rigorous product design and South African creative energy.",
+        "content": "Drixel SA represents our approach to combining strong visual identity, product design, fashion, and entrepreneurship—creating a brand with its own distinct identity within the wider Drixel ecosystem."
+      }
+    ]
+  },
+  "careers": {
+    "title": "Build the Future With Us",
+    "subtitle": "Engineering, product design, fashion, and venture leadership opportunities.",
+    "notice": "There are currently no open positions. Future opportunities will be announced here.",
+    "jobs": [
+      {
+        "id": "job-1786196647134",
+        "title": "Senior Product Engineer",
+        "department": "Engineering",
+        "type": "Full-time",
+        "location": "South Africa",
+        "link": "mailto:contact@drixel.co.za"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Let's Start a Conversation",
+    "subtitle": "We welcome inquiries regarding venture partnerships, product inquiries, or strategic collaboration.",
+    "email": "contact@drixel.co.za",
+    "location": "South Africa",
+    "socials": {
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://x.com",
+      "github": "https://github.com"
+    }
+  },
+  "seo": {
+    "metaTitle": "Drixel Labs Inc. — Building Brands. Developing Products. Creating Technology.",
+    "metaDescription": "Drixel Labs Inc. is a South African innovation and venture company founded by Anelisa Thelejene and Andzani Mashabane, focused on turning ideas into real businesses and products.",
+    "keywords": "Drixel Labs, Drixel SA, South Africa, Anelisa Thelejene, Andzani Mashabane, Venture Building, Fashion, Streetwear, Product Design, Engineering",
+    "ogImage": "https://drixel.co.za/og-image.png"
+  }
+}

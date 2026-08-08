@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drixel Labs Inc. — Design. Build. Elevate.</title>
+  <meta name="description" content="Drixel Labs Inc. is a South African innovation company creating products, brands, technologies, and experiences through thoughtful design and engineering.">
+  <meta name="keywords" content="Drixel Labs, South Africa, Design, Engineering, Innovation, Products, Architecture, Technology">
+  <meta name="theme-color" content="#0A0A0A">
+
+  <!-- OpenGraph SEO -->
+  <meta property="og:title" content="Drixel Labs Inc. — Design. Build. Elevate.">
+  <meta property="og:description" content="Drixel Labs Inc. develops purposeful brands, products, and technologies through exceptional design and engineering.">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <!-- Custom Interactive Physics Cursor -->
+  <div id="custom-cursor" class="custom-cursor" aria-hidden="true"></div>
+
+  <!-- WebGL 3D Background Canvas -->
+  <div id="webgl-container" aria-hidden="true"></div>
+
+  <!-- Global Header & Floating Navigation -->
+  <header class="site-header" id="site-header">
+    <a href="#hero" class="brand-logo" aria-label="Drixel Labs Inc. Home">
+      <div class="brand-symbol"></div>
+      <span>Drixel Labs</span>
+    </a>
+
+    <nav aria-label="Main Navigation">
+      <ul class="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#companies" class="nav-link">Companies</a></li>
+        <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#journal" class="nav-link">Journal</a></li>
+        <li><a href="#careers" class="nav-link">Careers</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <!-- Ambient Audio Toggle -->
+      <button id="audio-toggle-btn" class="audio-toggle-btn" aria-label="Toggle Ambient Audio">
+        <div class="sound-bars" aria-hidden="true">
+          <div class="sound-bar"></div>
+          <div class="sound-bar"></div>
+          <div class="sound-bar"></div>
+        </div>
+        <span class="audio-text">Audio Muted</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-tag">
+          <span>South Africa</span> &bull; <span>Innovation Studio</span>
+        </div>
+        <h1 class="hero-title">Building Brands.<br>Engineering Experiences.<br>Creating the Future.</h1>
+        <p class="hero-description">
+          Drixel Labs Inc. develops purposeful brands, products, and technologies through exceptional design and engineering.
+        </p>
+        <div class="btn-group">
+          <a href="#about" class="btn btn-primary">Explore</a>
+          <a href="#companies" class="btn btn-secondary">Our Companies</a>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <div class="scroll-line"></div>
+        <span>Scroll to Explore</span>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section id="about">
+      <div class="section-label">01 / Authenticity & Craft</div>
+      <h2 class="section-title">Rooted in precision engineering, guided by long-term vision.</h2>
+      <p class="section-subtitle">
+        We are an independent innovation company based in South Africa. We design and build physical and digital systems with uncompromising craftsmanship.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            At <span class="highlight">Drixel Labs Inc.</span>, we believe that true value emerges from solving real-world challenges through rigorous design and engineering discipline. We avoid superficial trends, sci-fi tropes, and speculative exaggerations.
+          </p>
+          <p>
+            Our work spans industrial product design, strategic brand systems, technology infrastructure, and tactile user interfaces. Every product we build is designed to be timeless, dependable, and aesthetically elevated.
+          </p>
+          <p>
+            Operating from South Africa, we pair local perspective with global standards of craftsmanship—creating enduring products that resonate internationally.
+          </p>
+        </div>
+
+        <div class="about-stats-grid">
+          <div class="stat-card">
+            <div class="stat-title">Foundation</div>
+            <div class="stat-value">Pure</div>
+            <div class="stat-desc">Substance and quality over visual gimmicks or noise.</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-title">Geography</div>
+            <div class="stat-value">ZA</div>
+            <div class="stat-desc">Proudly South African, operating with global rigor.</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-title">Engineering</div>
+            <div class="stat-value">60 FPS</div>
+            <div class="stat-desc">Fluid interactions with physical inertia and momentum.</div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-title">Standards</div>
+            <div class="stat-value">100%</div>
+            <div class="stat-desc">Authentic information only. Zero fabricated metrics.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. COMPANIES SECTION -->
+    <section id="companies">
+      <div class="section-label">02 / Portfolio & Operating Entities</div>
+      <h2 class="section-title">Our Companies & Operating Divisions</h2>
+      <p class="section-subtitle">
+        We build focused entities designed to create long-term impact across industrial design, technology, and brand infrastructure.
+      </p>
+
+      <div class="companies-grid">
+        <!-- Company 1: Drixel SA -->
+        <article class="company-card" data-name="Drixel SA" data-status="Active Operation" data-desc="Drixel SA is our core South African operational division specializing in industrial technology, design engineering, and enterprise brand systems." data-scope="Industrial Design, Strategic Brand Engineering, Embedded Software, Commercial Product Architecture.">
+          <div class="company-status status-active">Active Entity</div>
+          <div class="company-info">
+            <h3 class="company-name">Drixel SA</h3>
+            <p class="company-description">
+              Core South African operational division specializing in industrial technology, design engineering, and enterprise brand systems.
+            </p>
+          </div>
+          <div class="company-meta">
+            <span>Focus: Design & Technology</span>
+            <div class="company-link-arrow">&rarr;</div>
+          </div>
+        </article>
+
+        <!-- Company 2: Drixel Hardware Lab -->
+        <article class="company-card" data-name="Drixel Hardware Lab" data-status="In Development" data-desc="An advanced R&D facility exploring precision enclosures, tactile physical controls, and sustainable material manufacturing." data-scope="Physical Prototyping, Enclosure Design, CNC Machining Protocols, Material Science Research.">
+          <div class="company-status status-dev">Status: In Development</div>
+          <div class="company-info">
+            <h3 class="company-name">Drixel Hardware Lab</h3>
+            <p class="company-description">
+              Advanced R&D facility exploring precision enclosures, tactile physical controls, and sustainable material manufacturing.
+            </p>
+          </div>
+          <div class="company-meta">
+            <span>Focus: Physical Devices</span>
+            <div class="company-link-arrow">&rarr;</div>
+          </div>
+        </article>
+
+        <!-- Company 3: Drixel Digital Foundry -->
+        <article class="company-card" data-name="Drixel Digital Foundry" data-status="In Development" data-desc="Specialized software engineering laboratory developing bespoke WebGL, spatial computing, and high-performance digital platforms." data-scope="3D Interactive Web Architecture, Real-Time WebGL Systems, Custom Audio & Canvas Engines.">
+          <div class="company-status status-dev">Status: In Development</div>
+          <div class="company-info">
+            <h3 class="company-name">Drixel Digital Foundry</h3>
+            <p class="company-description">
+              Specialized software engineering laboratory developing bespoke WebGL, spatial computing, and high-performance digital platforms.
+            </p>
+          </div>
+          <div class="company-meta">
+            <span>Focus: Software Engineering</span>
+            <div class="company-link-arrow">&rarr;</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 4. PHILOSOPHY SECTION -->
+    <section id="philosophy">
+      <div class="section-label">03 / Principles & Ethos</div>
+      <h2 class="section-title">Design Philosophy</h2>
+      <p class="section-subtitle">
+        We are guided by enduring principles that dictate how we research, engineer, and refine every product.
+      </p>
+
+      <div class="philosophy-grid">
+        <div class="philosophy-card">
+          <div class="philosophy-num">01 / PURPOSE</div>
+          <h3 class="philosophy-title">Design with Purpose</h3>
+          <p class="philosophy-body">
+            Form must follow intent. We eliminate unnecessary ornamentation to highlight true utility and aesthetic clarity.
+          </p>
+        </div>
+
+        <div class="philosophy-card">
+          <div class="philosophy-num">02 / LONGEVITY</div>
+          <h3 class="philosophy-title">Build for Longevity</h3>
+          <p class="philosophy-body">
+            We engineer for durability over obsolescence—creating physical and digital assets crafted to last for decades.
+          </p>
+        </div>
+
+        <div class="philosophy-card">
+          <div class="philosophy-num">03 / CRAFTSMANSHIP</div>
+          <h3 class="philosophy-title">Craft Every Detail</h3>
+          <p class="philosophy-body">
+            Precision engineering happens in the microscopic details—from material tolerances to micro-interaction physics.
+          </p>
+        </div>
+
+        <div class="philosophy-card">
+          <div class="philosophy-num">04 / PROBLEM SOLVING</div>
+          <h3 class="philosophy-title">Solve Meaningful Problems</h3>
+          <p class="philosophy-body">
+            We dedicate our resources to real challenges in industrial technology, design infrastructure, and business scalability.
+          </p>
+        </div>
+
+        <div class="philosophy-card">
+          <div class="philosophy-num">05 / REFINEMENT</div>
+          <h3 class="philosophy-title">Continuous Improvement</h3>
+          <p class="philosophy-body">
+            Iteration is constant. We continually test, refine, and elevate our benchmarks to maintain world-class standards.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PROJECTS SECTION -->
+    <section id="projects">
+      <div class="projects-header">
+        <div>
+          <div class="section-label">04 / Engineering Showcase</div>
+          <h2 class="section-title" style="margin-bottom: 0;">Selected Projects</h2>
+        </div>
+      </div>
+
+      <div class="projects-list">
+        <!-- Project 1 -->
+        <article class="project-row" data-title="Drixel Architectural Design System" data-category="Brand & System Architecture" data-status="Completed" data-detail="A unified design token and material framework engineered for physical product signage, digital interfaces, and spatial brand touchpoints. Built with strict geometric proportions and titanium contrast ratios.">
+          <div>
+            <div class="project-name">Drixel Architectural Design System</div>
+            <div class="project-tagline">Physical & Digital Design System Framework</div>
+          </div>
+          <div class="project-tagline">Brand & System Architecture</div>
+          <div class="project-badge completed">Completed</div>
+          <div class="project-arrow">&rarr;</div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-row" data-title="Precision Acoustic Enclosure" data-category="Industrial Design" data-status="Status: In Development" data-detail="An ongoing R&D project exploring acoustic resonance control using CNC-machined brushed aluminium and composite damping ceramics. Designed for high-fidelity audio monitoring environments.">
+          <div>
+            <div class="project-name">Precision Acoustic Enclosure</div>
+            <div class="project-tagline">CNC Aluminium Acoustic Chassis</div>
+          </div>
+          <div class="project-tagline">Industrial Design</div>
+          <div class="project-badge dev">Status: In Development</div>
+          <div class="project-arrow">&rarr;</div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-row" data-title="Modular Industrial Workspace" data-category="Spatial & Product Architecture" data-status="Status: In Development" data-detail="A modular physical workstation ecosystem engineered for high-precision creative and hardware engineering labs. Combines anodized aluminum extrusions with integrated cable management.">
+          <div>
+            <div class="project-name">Modular Industrial Workspace</div>
+            <div class="project-tagline">Precision Workstation Architecture</div>
+          </div>
+          <div class="project-tagline">Spatial Engineering</div>
+          <div class="project-badge dev">Status: In Development</div>
+          <div class="project-arrow">&rarr;</div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-row" data-title="Tactile Interface Framework" data-category="Software Engineering" data-status="Completed" data-detail="A high-performance WebGL & Canvas interaction engine designed for smooth physics-based UI controls, inertia dragging, and real-time material reflections on mobile and desktop viewports.">
+          <div>
+            <div class="project-name">Tactile Interface Framework</div>
+            <div class="project-tagline">Physics-Based WebGL UI Engine</div>
+          </div>
+          <div class="project-tagline">Software Engineering</div>
+          <div class="project-badge completed">Completed</div>
+          <div class="project-arrow">&rarr;</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 6. JOURNAL SECTION -->
+    <section id="journal">
+      <div class="section-label">05 / Editorial & Insights</div>
+      <h2 class="section-title">Journal & Perspectives</h2>
+      <p class="section-subtitle">
+        Thoughtful essays and technical notes on product design, engineering, entrepreneurship, and innovation.
+      </p>
+
+      <div class="journal-grid">
+        <!-- Article 1 -->
+        <article class="journal-card" data-title="The Architecture of Longevity" data-date="August 2026" data-category="Design Philosophy" data-article="<p>In an era dominated by rapid digital churn, building products that last requires a deliberate departure from transient trends.</p><p>When we examine iconic industrial objects—from Leica cameras to Bang & Olufsen acoustic systems—their enduring appeal lies in physical material authenticity and restrained geometry. At Drixel Labs Inc., we apply these same architectural standards across all physical and software systems we build.</p>">
+          <div>
+            <div class="journal-meta">
+              <span>Design Philosophy</span>
+              <span>August 2026</span>
+            </div>
+            <h3 class="journal-title">The Architecture of Longevity: Why Timeless Engineering Trumps Trends</h3>
+            <p class="journal-snippet">
+              Examining material authenticity, geometric restraint, and how industrial design principles apply to modern innovation.
+            </p>
+          </div>
+          <div class="journal-read-more">
+            Read Article <span>&rarr;</span>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="journal-card" data-title="Precision Craftsmanship in Digital Systems" data-date="July 2026" data-category="Engineering" data-article="<p>Digital interfaces are often treated as disposable layers, but user perception is deeply influenced by micro-physics, latency, and tactile responsiveness.</p><p>By treating WebGL shaders, camera inertia, and typography grid alignment with the same rigor as metal machining, we create digital environments that feel physical, tangible, and calm.</p>">
+          <div>
+            <div class="journal-meta">
+              <span>Engineering</span>
+              <span>July 2026</span>
+            </div>
+            <h3 class="journal-title">Precision Craftsmanship in Physical & Digital Experiences</h3>
+            <p class="journal-snippet">
+              Translating tactile physics, material lighting, and micro-animations into interactive 3D web environments.
+            </p>
+          </div>
+          <div class="journal-read-more">
+            Read Article <span>&rarr;</span>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="journal-card" data-title="Building Industrial Venture Systems from South Africa" data-date="June 2026" data-category="Entrepreneurship" data-article="<p>South Africa possesses immense technical talent, resourcefulness, and unique problem-solving perspectives.</p><p>Building an innovation company in this ecosystem requires disciplined capitalization, focus on core engineering value, and a commitment to global product standards without relying on Silicon Valley hype cycles.</p>">
+          <div>
+            <div class="journal-meta">
+              <span>Entrepreneurship</span>
+              <span>June 2026</span>
+            </div>
+            <h3 class="journal-title">Building Industrial Venture Systems from South Africa</h3>
+            <p class="journal-snippet">
+              Strategic notes on establishing independent innovation laboratories, engineering culture, and long-term value creation.
+            </p>
+          </div>
+          <div class="journal-read-more">
+            Read Article <span>&rarr;</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 7. CAREERS SECTION -->
+    <section id="careers">
+      <div class="section-label">06 / Talent & Opportunities</div>
+      <h2 class="section-title">Careers at Drixel Labs</h2>
+
+      <div class="careers-box">
+        <div class="careers-statement">
+          <p>
+            "There are currently no open positions. Future opportunities will be announced here."
+          </p>
+          <p style="margin-top: 1.5rem; font-size: 0.95rem;">
+            We maintain an uncompromising bar for engineering, design, and strategic excellence. When new roles are established in South Africa or remotely, we share them directly with our talent network.
+          </p>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 1rem; align-items: flex-start;">
+          <button id="careers-subscribe-btn" class="btn btn-secondary">
+            Register Future Interest
+          </button>
+          <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--text-subtle);">
+            Direct notification on position release
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT SECTION -->
+    <section id="contact">
+      <div class="section-label">07 / Connect</div>
+      <h2 class="section-title">Initiate a Conversation</h2>
+      <p class="section-subtitle">
+        We welcome inquiries regarding strategic partnerships, product inquiries, or engineering consultations.
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-label">Direct Correspondence</span>
+            <a href="mailto:contact@drixel.co.za" class="contact-value">contact@drixel.co.za</a>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">Headquarters</span>
+            <span class="contact-value" style="font-size: 1.05rem; color: var(--text-muted);">
+              South Africa
+            </span>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-label">Professional Networks</span>
+            <div class="social-links">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
+              <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-link">X (Twitter)</a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="contact-name" class="form-label">Full Name</label>
+            <input type="text" id="contact-name" class="form-input" placeholder="e.g. Julian Vance" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email" class="form-label">Email Address</label>
+            <input type="email" id="contact-email" class="form-input" placeholder="name@company.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-subject" class="form-label">Subject</label>
+            <input type="text" id="contact-subject" class="form-input" placeholder="Project Inquiry / Strategic Consultation" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message" class="form-label">Message</label>
+            <textarea id="contact-message" class="form-textarea" placeholder="Detail your project requirements or inquiry..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.5rem;">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal Popover Overlay -->
+  <div id="modal-overlay" class="modal-overlay" aria-hidden="true">
+    <div class="modal-container" role="dialog" aria-modal="true">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Close Modal">&times;</button>
+      <div id="modal-body" class="modal-body">
+        <h3 id="modal-title">Modal Title</h3>
+        <div id="modal-content">Modal Content</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-copy">
+        &copy; 2026 Drixel Labs Inc. All rights reserved. Design. Build. Elevate.
+      </div>
+      <div class="footer-location">
+        <span class="location-dot"></span>
+        <span>South Africa &bull; Global Operations</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
